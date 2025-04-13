@@ -1,19 +1,19 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { IoIosArrowForward } from "react-icons/io";
 import { MdUpload } from "react-icons/md";
 import MainCategory from "../components/MainCategory";
 import FeaturedPosts from "../components/FeaturedPosts";
+import PostList from "../components/PostList";
 
 const HomPage = () => {
   return (
     <div className="mt-4 flex flex-col gap-4">
       <div className="flex gap-4">
-        <Link to="/">Home</Link>
+        <Link to="/">Trang Chủ</Link>
         <span className="flex justify-center mt-1">
           <IoIosArrowForward />
         </span>
-        <span className="text-blue-600">News and Trending</span>
+        <span className="text-blue-600">Tin tức mới và hot</span>
       </div>
       <div className="flex items-center justify-center">
         <div className="">
@@ -39,12 +39,12 @@ const HomPage = () => {
             />
             <text>
               <textPath href="#circlePath" startOffset="0%">
-                Write Your Mind
+                Upload News
               </textPath>
             </text>
             <text>
               <textPath href="#circlePath" startOffset="50%">
-                Law Ngan Ngan
+                HUMG - VNU
               </textPath>
             </text>
           </svg>
@@ -58,6 +58,12 @@ const HomPage = () => {
       <MainCategory />
       {/* Features\dPOST */}
       <FeaturedPosts />
+      {/* PostList */}
+
+      <div className="">
+        <h1 className="my-8 text-2xl text-gray-600">Gần đây</h1>
+        <PostList />
+      </div>
     </div>
   );
 };

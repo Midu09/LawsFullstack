@@ -1,4 +1,3 @@
-import React from "react";
 import Images from "./Images";
 import { Link } from "react-router-dom";
 const FeaturedPosts = () => {
@@ -14,7 +13,7 @@ const FeaturedPosts = () => {
           <Link className="text-blue-400 cursor-pointer lg:text-lg">
             Hiến pháp & Luật
           </Link>
-          <span className="text-gray-500 italic">2 days ago</span>
+          <span className="text-gray-500 italic">2 ngày trước</span>
         </div>
         {/* title */}
         <Link
@@ -38,7 +37,7 @@ const FeaturedPosts = () => {
             <div className="flex items-center gap-4 text-sm lg:text-base mb-4 ">
               <h1 className="font-semibold ">02.</h1>
               <Link className="text-blue-400">Nghị định & Pháp lệnh</Link>
-              <span className="text-gray-500 text-sm italic">3 days ago</span>
+              <span className="text-gray-500 text-sm italic">3 ngày trước</span>
             </div>
             {/* title */}
             <Link
@@ -63,7 +62,7 @@ const FeaturedPosts = () => {
             <div className="flex items-center gap-4 text-sm lg:text-base mb-4 ">
               <h1 className="font-semibold ">02.</h1>
               <Link className="text-blue-400">Nghị định & Pháp lệnh</Link>
-              <span className="text-gray-500 text-sm italic">3 days ago</span>
+              <span className="text-gray-500 text-sm italic">3 ngày trước</span>
             </div>
             {/* title */}
             <Link
@@ -88,7 +87,7 @@ const FeaturedPosts = () => {
             <div className="flex items-center gap-4 text-sm lg:text-base mb-4 ">
               <h1 className="font-semibold ">02.</h1>
               <Link className="text-blue-400">Nghị định & Pháp lệnh</Link>
-              <span className="text-gray-500 text-sm italic">3 days ago</span>
+              <span className="text-gray-500 text-sm italic">3 ngày trước</span>
             </div>
             {/* title */}
             <Link
