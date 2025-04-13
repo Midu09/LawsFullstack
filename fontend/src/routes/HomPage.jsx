@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { IoIosArrowForward } from "react-icons/io";
 import { MdUpload } from "react-icons/md";
 import MainCategory from "../components/MainCategory";
+import FeaturedPosts from "../components/FeaturedPosts";
 
 const HomPage = () => {
   return (
@@ -55,6 +56,8 @@ const HomPage = () => {
 
       {/* CateGORyMain */}
       <MainCategory />
+      {/* Features\dPOST */}
+      <FeaturedPosts />
     </div>
   );
 };
