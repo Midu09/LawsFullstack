@@ -1,7 +1,25 @@
 import { useUser } from "@clerk/clerk-react";
+import { useEffect, useState } from "react";
 import ReactQuill from "react-quill-new";
 import "react-quill-new/dist/quill.snow.css";
 const Write = () => {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const fetchUsers = async () => {
+      try {
+        const res = await fetch("http://localhost:3000/posts");
+        const result = await res.json();
+        console.log(result);
+        setData(result);
+      } catch (error) {
+        console.error("❌ Lỗi khi fetch users:", error);
+      }
+    };
+
+    fetchUsers();
+  }, []);
+
   const { isLoaded, isSignedIn } = useUser();
   if (!isLoaded) {
     return <div>Loading...</div>;
@@ -24,7 +42,7 @@ const Write = () => {
         />
         <div className="flex items-center gap-4">
           <label htmlFor="" className="text-sm">
-            Chon mot label:
+            Chon mot danh muc:
           </label>
           <select name="cat" className="p-2 rounded-xl bg-white shadow-sm">
             <option value="general">genneral</option>

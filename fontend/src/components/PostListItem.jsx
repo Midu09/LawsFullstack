@@ -8,7 +8,7 @@ const PostListItem = () => {
       {/* IMAGE SECTION */}
       <div className="w-full xl:w-1/3">
         <Images
-          src="postImg.jpeg"
+          src="dangkykethon.jpg"
           className="rounded-2xl object-cover w-full h-64 xl:h-full"
         />
       </div>
@@ -16,7 +16,7 @@ const PostListItem = () => {
       {/* TEXT SECTION */}
       <div className="flex flex-col gap-4 w-full xl:w-2/3">
         <Link to="/test" className="text-2xl xl:text-4xl font-semibold">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Thủ tục đăng ký kết hôn năm 2025: Hồ sơ, điều kiện là gì?
         </Link>
         <div className="flex flex-wrap items-center gap-2 text-gray-400 text-sm">
           <span>Đăng bởi</span>
@@ -27,10 +27,11 @@ const PostListItem = () => {
         </div>
         <div className="">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            vitae soluta explicabo dolor beatae accusantium asperiores quidem!
-            Consectetur, placeat, sequi recusandae eum eos aspernatur dicta
-            commodi modi alias minima magni.
+            Chào mừng quý độc giả đến với bài viết Mức phạt xe không chính chủ
+            hiện nay là bao nhiêu tiền?. Trong bài viết này, chúng ta sẽ cùng đi
+            tìm hiểu về những thay đổi quan trọng trong quy định liên quan đến
+            việc sử dụng xe không chính chủ và mức phạt được điều chỉnh vào năm
+            2024.
           </p>
           <Link className="text-blue-600 underline text-sm">Xem thêm</Link>
         </div>

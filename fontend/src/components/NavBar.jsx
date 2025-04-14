@@ -8,6 +8,7 @@ import { Button } from "antd";
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
+  
 
   return (
     <div className="relative w-full h-16 md:h-20 flex items-center justify-between px-4">
@@ -36,8 +37,8 @@ const NavBar = () => {
         >
           <Link to="/">Trang Chủ</Link>
           <Link to="/">Tra Cứu</Link>
-          <Link to="/">Cửa Hàng</Link>
-          <Link to="/">Tư Vấn</Link>
+          <Link to="/store">Cửa Hàng</Link>
+          <Link to="/contact">Tư Vấn</Link>
 
           <SignedOut>
             <Link to="/login">
@@ -56,8 +57,8 @@ const NavBar = () => {
       <div className="hidden md:flex items-center gap-8 xl:gap-12 font-medium">
         <Link to="/">Trang Chủ</Link>
         <Link to="/">Tra Cứu</Link>
-        <Link to="/">Cửa Hàng</Link>
-        <Link to="/">Tư Vấn</Link>
+        <Link to="/store">Cửa Hàng</Link>
+        <Link to="/contact">Tư Vấn</Link>
         <SignedOut>
           <Link to="/login">
             <button className="py-1 px-4 rounded-3xl bg-blue-700 text-white">

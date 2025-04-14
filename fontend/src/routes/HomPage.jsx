@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { IoIosArrowForward } from "react-icons/io";
-import { MdUpload } from "react-icons/md";
+import { VscLaw } from "react-icons/vsc";
 import MainCategory from "../components/MainCategory";
 import FeaturedPosts from "../components/FeaturedPosts";
 import PostList from "../components/PostList";
@@ -13,7 +13,7 @@ const HomPage = () => {
         <span className="flex justify-center mt-1">
           <IoIosArrowForward />
         </span>
-        <span className="text-blue-600">Tin tức mới và hot</span>
+        <span className="text-blue-600">Tin tức mới</span>
       </div>
       <div className="flex items-center justify-center">
         <div className="">
@@ -48,8 +48,8 @@ const HomPage = () => {
               </textPath>
             </text>
           </svg>
-          <button className="absolute bg-pink-200 rounded-full flex items-center justify-center  top-0 left-0 right-0 bottom-0 m-auto w-20 h-20">
-            <MdUpload />
+          <button className="absolute text-3xl bg-pink-200 rounded-full flex items-center justify-center  top-0 left-0 right-0 bottom-0 m-auto w-20 h-20">
+            <VscLaw />
           </button>
         </Link>
       </div>

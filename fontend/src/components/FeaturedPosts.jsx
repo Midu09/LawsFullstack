@@ -6,7 +6,7 @@ const FeaturedPosts = () => {
       {/* First */}
       <div className="w-full lg:w-1/2 flex flex-col gap-4">
         {/* image */}
-        <Images src="featured1.jpeg" className="rounded-3xl object-cover" />
+        <Images src="sodo.jpg" className="rounded-3xl object-cover" />
         {/* detail */}
         <div className="flex items-center gap-4">
           <h1 className="font-semibold lg:text-lg ">01.</h1>
@@ -20,7 +20,7 @@ const FeaturedPosts = () => {
           to="/test"
           className="text-xl lg:text-3xl font-semibold lg:font-bold"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Làm sổ đỏ bao nhiêu tiền 1m2 năm 2025? Phí làm sổ đỏ đất thổ cư?
         </Link>
       </div>
       {/* other */}
@@ -28,7 +28,7 @@ const FeaturedPosts = () => {
         {/* Second */}
         <div className="flex justify-between gap-4 lg:h-1/3">
           <Images
-            src="featured2.jpeg"
+            src="sodo.jpg"
             className="rounded-3xl object-cover w-1/3 aspect-video"
           ></Images>
 
@@ -44,8 +44,7 @@ const FeaturedPosts = () => {
               to="/test"
               className="text-base sm:text-lg md:text-2xl lg:text-xl xl:text-2xl font-medium"
             >
-              Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
-              adipisicing elit.
+              Mẫu bản kiểm điểm học sinh không thuộc bài mới nhất
             </Link>
           </div>
         </div>
@@ -53,7 +52,7 @@ const FeaturedPosts = () => {
 
         <div className="flex justify-between gap-4 lg:h-1/3">
           <Images
-            src="featured2.jpeg"
+            src="bankiemdiem.webp"
             className="rounded-3xl object-cover w-1/3 aspect-video"
           ></Images>
 
@@ -69,8 +68,7 @@ const FeaturedPosts = () => {
               to="/test"
               className="text-base sm:text-lg md:text-2xl lg:text-xl xl:text-2xl font-medium"
             >
-              Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
-              adipisicing elit.
+              Mẫu bản kiểm điểm học sinh không thuộc bài mới nhất
             </Link>
           </div>
         </div>
@@ -78,7 +76,7 @@ const FeaturedPosts = () => {
 
         <div className="flex justify-between gap-4 lg:h-1/3">
           <Images
-            src="featured2.jpeg"
+            src="bankiemdiem.webp"
             className="rounded-3xl object-cover w-1/3 aspect-video"
           ></Images>
 
@@ -94,8 +92,7 @@ const FeaturedPosts = () => {
               to="/test"
               className="text-base sm:text-lg md:text-2xl lg:text-xl xl:text-2xl font-medium"
             >
-              Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
-              adipisicing elit.
+              Mẫu bản kiểm điểm học sinh không thuộc bài mới nhất
             </Link>
           </div>
         </div>
